@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Data Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="landingpage.css">
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        .section-heading {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header-content">
+        <div class="left">
+            <span class="main-text">GOVERNMENT OF MADHYA PRADESH</span>
+        </div>
+        <div class="right">
+            <a href="#" class="icon" title="Facebook"><img src="./img/fb.png" alt="Facebook"></a>
+            <a href="#" class="icon" title="X"><img src="./img/x.png" alt="X"></a>
+            <a href="#" class="icon" title="LinkedIn"><img src="./img/linkedln.png" alt="LinkedIn"></a>
+            <a href="#" class="icon" title="Email"><img src="./img/email.png" alt="Email"></a>
+        </div>
+    </div>
+
+    <header class="bg-primary text-white py-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Left Section -->
+                <div class="col-md-3 d-flex align-items-center">
+                    <img src="./img/mplogo.png" alt="Logo">
+                    <div>
+                        <h6 class="mb-0">Directorate, Urban Administration &</h6>
+                        <h6 class="mb-0">Development Government of</h6>
+                        <h6 class="mb-0">Madhya Pradesh</h6>
+                    </div>
+                </div>
+
+                <!-- Scrolling Text -->
+
+                <div class="col-md-3 text-center">
+                    <div class="scrolling-text">
+                        <h5 id="scrollingText">Urban Data Analytics Center - GIS Project</h5>
+                    </div>
+                </div>
+
+                <!-- Navigation Bar -->
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg" style="background-color: white; border-radius: 15px;">
+                        <button class="navbar-toggler ms-auto me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#hero">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero text-center py-5"
+            style="height: 100vh; display: flex; flex-direction: column; justify-content: center; background-image: url('./img/Banner-.gif'); background-size: cover; background-position: center; color: beige;">
+            <div class="container">
+                <p style="font-size: 2rem;">Welcome to the Urban Data Analytics of Madhya Pradesh</p>
+                <p style="font-size: 1.5rem;">Empowering decision-makers with geospatial intelligence for smarter cities</p>
+                <div class="mt-4">
+                    <button class="btn btn-primary me-2" id="citizenButton">Continue as Citizen</button>
+                    <button class="btn btn-secondary" id="departmentButton">Continue as Department</button>
+                </div>
+                <img src="./img/Hero-image.png" alt="GIS Map" class="img-fluid rounded shadow mt-5"
+                style="max-width: 50%; height: auto;">
+            </div>
+        </section>
+
+        <!-- About Section -->
+      
+
+        <section id="about" class="bg-light">
+            <div class="container">
+                <h2 class="section-heading">About Urban Data Analytics</h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>
+                            Rate of urbanisation in Madhya Pradesh is fast reaching the National average of 28%. 
+                            It is expected to cross the 30% mark in another 15 years. Most of the increase in urban population in the state 
+                            is driven by an increase in the number of habitations entering the urban strata rather than an increase 
+                            in the population of existing urban areas.
+                        </p>
+                        <button class="btn btn-primary">Know more</button>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="features">
+                            <div class="feature">
+                                <img src="./img/Innovative Solutions.png" alt="Innovative Solutions" style="max-width: 20%; height: auto;" />
+                                <h4>Innovative Solutions</h4>
+                            </div>
+                            <div class="feature">
+                                <img src="./img/User Friendly UI.png" alt="User Friendly UI" style="max-width: 20%; height: auto;" />
+                                <h4>User Friendly UI</h4>
+                            </div>
+                            <div class="feature">
+                                <img src="./img/Focused Tools.png" alt="Focused Tools" style="max-width: 20%; height: auto;" />
+                                <h4>Focused Tools</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Projects Section -->
+
+      
+        <section id="projects">
+            <div class="container">
+              <h2 class="section-heading">Our Projects</h2>
+              <p>
+                Explore our innovative GIS projects aimed at enhancing urban planning and
+                management...
+              </p>
+              <div class="project-grid">
+                <div class="project-card">
+                    <img src="./img/Projects-english/Project-card.png" alt="AMRUT Project">
+                    <h3>GIS Based AMRUT Master Plan</h3>
+                  </div>
+                <div class="project-card">
+                  <img src="./img/Projects-english/Project-card-1.png" alt="Gati Shakti Project">
+                  <h3>PM Gati Shakti</h3>
+                </div>
+                <div class="project-card">
+                  <img src="./img/Projects-english/Project-card-2.png" alt="Swachh Bharat Mission">
+                  <h3>Swachh Bharat Mission</h3>
+                </div>
+                <div class="project-card">
+                  <img src="./img/Projects-english/Project-card-3.png" alt="One Map">
+                  <h3>One City One Map</h3>
+                </div>
+                <div class="project-card">
+                  <img src="./img/Projects-english/Project-card-4.png" alt="Smart City">
+                  <h3>Smart City</h3>
+                </div>
+                <div class="project-card">
+                  <img src="./img/Projects-english/Project-card-5.png" alt="E-Nagar Palika">
+                  <h3>E-Nagar Palika</h3>
+                </div>
+                <div class="project-card">
+                    <img src="./img/Projects-english/Project-card-6.png" alt="Abpas">
+                    <h3>ABPAS</h3>
+                  </div>
+                  <div class="project-card">
+                    <img src="./img/Projects-english/Project-card-7.png" alt="Amrut">
+                    <h3>AMRUT</h3>
+                  </div>
+                  <div class="project-card">
+                    <img src="./img/Projects-english/Project-card-8.png" alt="Sampada">
+                    <h3>SAMPADA</h3>
+                  </div>
+                  <div class="project-card">
+                    <img src="./img/Projects-english/Project-card-9.png" alt="IGRS">
+                    <h3>IGRS</h3>
+                  </div>
+                <!-- Add more cards as needed -->
+              </div>
+            </div>
+          </section>
+          
+
+        <!-- Features Section -->
+        <!-- <section id="features" class="bg-light">
+            <div class="container">
+                <h2 class="section-heading">Key Features</h2>
+                <ul>
+                    <li>Real-time geospatial data visualization</li>
+                    <li>Interactive tools for data-driven decision making</li>
+                    <li>Comprehensive urban planning solutions</li>
+                </ul>
+            </div>
+        </section> -->
+
+
+        <section id="features" class="bg-light">
+            <div class="container">
+              <h2 class="section-heading">Features That Empower Your GIS Experience</h2>
+              <p class="section-description">
+                Explore, analyze, and visualize like never before with cutting-edge tools and seamless integration.
+              </p>
+          
+              <div class="features-grid">
+                <div class="feature-card">
+                  <div class="icon">🌍</div>
+                  <h3>GIS Dashboard</h3>
+                  <p>Interactive maps with real-time geospatial data.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">📊</div>
+                  <h3>MIS Dashboard</h3>
+                  <p>Organize and analyze critical urban data.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">📈</div>
+                  <h3>Spatial Analysis</h3>
+                  <p>Discover patterns and trends with geospatial tools.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">🤖</div>
+                  <h3>Decision Support System</h3>
+                  <p>Make data-driven plans with predictive models.</p>
+                </div>
+              </div>
+          
+              <h2 class="section-heading">Seamless Data Integration for Comprehensive Insights</h2>
+              <p class="section-description">
+                Combine geospatial, environmental, and urban datasets effortlessly to create a unified view of your city's challenges and opportunities.
+              </p>
+          
+              <div class="features-grid">
+                <div class="feature-card">
+                  <div class="icon">🏙️</div>
+                  <h3>Urban Data</h3>
+                  <p>Include datasets on drainage systems, urban areas, and more.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">🛰️</div>
+                  <h3>Satellite Data</h3>
+                  <p>Use satellite imagery to track flooding in real-time.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">🏔️</div>
+                  <h3>DEM & Terrain Model</h3>
+                  <p>Integrate high-resolution DEMs to analyze water flow.</p>
+                </div>
+                <div class="feature-card">
+                  <div class="icon">💧</div>
+                  <h3>Hydrological Data</h3>
+                  <p>Stream data from river gauge stations, reservoirs, and more.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+
+        <!-- Contact Us Section -->
+        <!-- <section id="contact">
+            <div class="container">
+                <h2 class="section-heading">Contact Us</h2>
+                <p>If you have any questions, feel free to reach out to us at <a href="mailto:info@mpurban.gov.in">info@mpurban.gov.in</a>.</p>
+            </div>
+        </section> -->
+
+        <section id="contact">
+            <div class="container" style="font-family: Arial, sans-serif; display: flex; flex-wrap: wrap; justify-content: space-between; color: white;">
+                <div class="contact-details" style="flex: 1; min-width: 300px; margin-right: 20px;">
+                    <h2 class="section-heading">Any Questions? Write or call us. <br> We will write back within a few hours</h2>
+                    <p class="heading">Directorate of Urban Administration & Development, Madhya Pradesh</p>
+                    <div class="contact-info">
+                        <p><strong>Office:</strong> Office of The Commissioner, Third Floor, Palika Bhawan, Shivaji Nagar, Bhopal, Pin - 462016</p>
+                        <p><strong>Phone:</strong> +91 755 2575491</p>
+                        <p><strong>Fax:</strong> +91 755 2575491</p>
+                        <p><strong>Email:</strong> <a href="mailto:Commissioner@mpurban.gov.in" style="color: #ffc107; text-decoration: none;">Commissioner@mpurban.gov.in</a></p>
+                    </div>
+                </div>
+                <div class="contact-form-container" style="flex: 1; min-width: 300px;">
+                    <form class="contact-form" action="#" method="post" style="margin-top: 20px;">
+                        <input type="text" name="name" placeholder="Enter your full name here" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <input type="email" name="email" placeholder="Enter your email address here" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <input type="text" name="phone" placeholder="Enter your phone number" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        <textarea name="message" placeholder="Enter your message here in 500 words." rows="5" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                        <!-- <div class="captcha" style="margin-bottom: 10px;">
+                           
+                            <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+                                <input type="checkbox" required> I'm not a robot
+                            </div>
+                        </div> -->
+
+                        <div class="form-row" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+                            <div class="form-group mb-3" style="flex: 1; margin-right: 10px;">
+                                <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+                            </div>
+                            <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Send Message</button>
+                        </div>
+
+                        <!-- <div class="form-group mb-3">
+                            <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+                          </div>
+                        <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Send Message</button> -->
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="contact">
+            <div class="container" style="font-family: Arial, sans-serif;">
+                <h2 class="section-heading">Any Questions? Write or call us. <br> We will write back within a few hours</h2>
+                <p>Directorate of Urban Administration & Development, Madhya Pradesh</p>
+                <div class="contact-info">
+                    <p><strong>Office:</strong> Office of The Commissioner, Third Floor, Palika Bhawan, Shivaji Nagar, Bhopal, Pin - 462016</p>
+                    <p><strong>Phone:</strong> +91 755 2575491</p>
+                    <p><strong>Fax:</strong> +91 755 2575491</p>
+                    <p><strong>Email:</strong> <a href="mailto:Commissioner@mpurban.gov.in">Commissioner@mpurban.gov.in</a></p>
+                </div>
+                <form class="contact-form" action="#" method="post" style="margin-top: 20px;">
+                    <input type="text" name="name" placeholder="Enter your full name here" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    <input type="email" name="email" placeholder="Enter your email address here" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    <input type="text" name="phone" placeholder="Enter your phone number" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    <textarea name="message" placeholder="Enter your message here in 500 words." rows="5" required style="display: block; width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                    <div class="captcha" style="margin-bottom: 10px;">
+                       
+                        <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+                            <input type="checkbox" required> I'm not a robot
+                        </div>
+                    </div>
+                    <button type="submit" style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Send Message</button>
+                </form>
+            </div>
+        </section> -->
+
+        <!-- <section id="contact" class="bg-primary text-white py-5">
+            <div class="container">
+              <h2 class="section-heading text-center mb-4">Contact Us</h2>
+              <p class="text-center">
+                If you have any questions, Write or call us. We will write back with in few hours
+                <a href="mailto:info@mpurban.gov.in" class="text-warning">info@mpurban.gov.in</a>.
+              </p>
+              <div class="row justify-content-center mt-4">
+                <div class="col-lg-6">
+                  <form>
+                    <div class="form-group mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea id="message" class="form-control" rows="5" placeholder="Enter your message here in 500 words"></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="g-recaptcha" data-sitekey="your-site-key"></div>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section> -->
+
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer class="bg-dark text-white py-3 text-center">
+        <p>© Directorate of Urban Administration & Development, Government of Madhya Pradesh</p>
+    </footer> -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container text-center text-md-start">
+                <div class="row">
+                    <!-- Logo and Map -->
+                    <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+                        <img src="./img/mplogo.png" alt="Madhya Pradesh Logo" class="mb-3" width="70">
+                        <p class="logo">Directorate, Urban Administration & Development<br>Government of Madhya Pradesh</p>
+                        <img src="./img/MP-orange.png" alt="Madhya Pradesh Map" class="map-image" style="max-width: 40%; height: auto;">
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="col-md-2 mb-4 mb-md-0">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <!-- Projects -->
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <h5>Projects</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">GIS based AMRUT plan</a></li>
+                            <li><a href="#">PM Gati Shakti</a></li>
+                            <li><a href="#">SBM (Swachh Bharat Mission)</a></li>
+                            <li><a href="#">One city one map</a></li>
+                            <li><a href="#">Smart city</a></li>
+                            <li><a href="#">E-Nagar Palika</a></li>
+                            <li><a href="#">ABPAS</a></li>
+                            <li><a href="#">SAMPADA</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact -->
+                    <div class="col-md-3">
+                        <h5>Contact</h5>
+                        <p class="mb-1">+91-7552575491</p>
+                        <p class="mb-1"><a href="mailto:commissioner@mpurban.gov.in">commissioner@mpurban.gov.in</a></p>
+                        <p>Office of commissioner,<br>Third Floor, Palika Bhawan,<br>Shivaji Nagar, Bhopal, Pin - 462016</p>
+                        <div>
+                            <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="me-3"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="bg-dark text-white py-3 text-center mt-4">
+                <p>© Directorate of Urban Administration & Development, Government of Madhya Pradesh</p>
+            </div> -->
+        </footer>
+
+
+    <script>
+        document.getElementById("citizenButton").addEventListener("click", function () {
+            // Navigate to district.html
+            window.location.href = "district.html";
+        });
+    </script>
+
+    <script>
+        document.getElementById("departmentButton").addEventListener("click", function () {
+            // Navigate to district.html
+            window.location.href = "department.html";
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
